@@ -1,12 +1,6 @@
 # workshop
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+Este projeto tem como finalidade fazer parte de um treinamento de desenvolvimento web oferecido pela Level.Up academy (www.levelupacademy.com.br) e estará disponível para futuras consultas pelos alunos do curso ou interessados em desenvolvimento web em geral.
 
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+Este projeto foi gerado com Yeoman [yo angular generator](https://github.com/yeoman/generator-angular)
+versão 0.15.1.
