@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <h1>Pokémons</h1>
+</div>
+
+<div class="row marketing">
+  <h4>Find your Pokémon</h4>
+  <p>
+    Find any Pokémon by his number:
+  </p>
+</div>
+
+<div class="row">
+  # <input type="text" ng-model="busca"><button ng-click="search();" >Find!</button> <span>{{message}}</span>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-3" ng-repeat="pokemon in pokemons">
+      <p><strong>Name:</strong> {{pokemon.name}}</p>
+      <p><strong>Wheight:</strong> {{pokemon.weight}}</p>
+      <img src="{{pokemon.sprites.front_default}}" alt="">
+    </div>
+</div>
